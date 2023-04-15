@@ -7,3 +7,4 @@ This is a summary of my findings so far
 |Binary Gap                | L1            | Easy       | Yes    |                   |  
 |Cyclic Rotation           | L2            | Easy       | Yes    |                   |
 |Odd Occurrences In Array  | L2            | Easy       | Yes    | O(N) or O(NlogN)  |
+|Frog Jump                 | L3            | Easy       | Yes    | O(1)              |
