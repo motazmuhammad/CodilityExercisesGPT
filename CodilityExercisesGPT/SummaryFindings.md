@@ -10,3 +10,4 @@ This is a summary of my findings so far
 |Frog Jump                 | L3            | Easy       | Yes    | O(1)              |
 |PermMissingElem           | L3            | Easy       | Yes    | O(N)              |
 |TapeEquilibrium           | L3            | Easy       | Yes    | O(N)              |
+|FrogRiverOne              | L4            | Easy       | Yes    | O(N)              |
