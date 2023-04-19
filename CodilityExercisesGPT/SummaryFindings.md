@@ -12,3 +12,4 @@ This is a summary of my findings so far
 |TapeEquilibrium           | L3            | Easy       | Yes           | O(N)              |
 |FrogRiverOne              | L4            | Easy       | Yes           | O(N)              |
 |Max Counters              | L4            | Medium     | Yes 2nd Trial | O(N+M)            |
+|PermCheck                 | L4            | Medium     | Yes           | O(N)              |
