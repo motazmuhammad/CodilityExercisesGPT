@@ -13,3 +13,5 @@ This is a summary of my findings so far
 |FrogRiverOne              | L4            | Easy       | Yes           | O(N)              |
 |Max Counters              | L4            | Medium     | Yes 2nd Trial | O(N+M)            |
 |PermCheck                 | L4            | Medium     | Yes           | O(N)              |
+|MissingInteger            | L4            | Medium     | Yes           | O(N) or O(NlogN)  |
+|Passing Cars              | L5            | Easy       | Yes           | O(N)              |

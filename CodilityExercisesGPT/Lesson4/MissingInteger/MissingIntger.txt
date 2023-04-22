@@ -1,0 +1,28 @@
+﻿Write a function:
+
+int solution(vector<int> &A);
+
+that, given an array A of N integers, returns the smallest positive integer (greater than 0) that does not occur in A.
+
+For example, given A = [1, 3, 6, 4, 1, 2], the function should return 5.
+
+Given A = [1, 2, 3], the function should return 4.
+
+Given A = [−1, −3], the function should return 1.
+
+Write an efficient algorithm for the following assumptions:
+
+N is an integer within the range [1..100,000];
+each element of array A is an integer within the range [−1,000,000..1,000,000].
+
+
+GPT's solution and explanation
+
+One efficient algorithm to solve this problem is as follows:
+
+Create a boolean array B of size N+1, initialized with false values.
+Loop through all elements of A.
+For each element x of A, check if it is within the range [1, N+1]. If yes, set B[x] to true.
+Loop through all integers i from 1 to N+1. As soon as we find an i such that B[i] is false, return i as the answer.
+If we reach the end of the loop without finding such an i, return N+1 as the answer.
+The time complexity of this algorithm is O(N), which is optimal for this problem.
